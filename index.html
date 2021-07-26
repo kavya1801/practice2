@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TABLES
+        </title>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            .row {
+              margin-left:-5px;
+              margin-right:-5px;
+            }  
+            .column {
+              float: left;
+              width: 50%;
+              padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h2>TABLES</h2>
+        </center>
+        <div class="row">
+            <div class="column">
+                <table height="150" width="600" border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <td>1</td>
+                        <td colspan="2">2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td colspan="2">7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column">
+                <table height="150" width="600" border="1" style="border-collapse:collapse;">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td rowspan="2">8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        &emsp14;
+        <table height="150" width="600" border="1" style="border-collapse: collapse;">
+            <tr>
+                <td rowspan="2">Rollno</td>
+                <td colspan="3">
+                    <center>
+                        Internal marks
+                    </center>
+                </td>
+                <td rowspan="2">Total mark</td>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>tutorial</td>
+                <td>other</td>
+            </tr>
+            <tr>
+                <td>19itr001</td>
+                <td>25</td>
+                <td>10</td>
+                <td>3</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>19itr001</td>
+                <td>30</td>
+                <td>10</td>
+                <td>3</td>
+                <td>43</td>
+            </tr>
+        </table> <br>
+        &emsp14;
+        <table height="150" width="600" border="1" style="border-collapse: collapse;">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <td rowspan="2">5</td>
+            <td rowspan="3" colspan="2">6</td>
+                <td rowspan="2">7</td>
+            </tr>
+            <tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+        </table>
+    </body>
+</html>
